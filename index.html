@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+        
+  <head>
+    <Title>My Css Website</Title>
+      <link rel="stylesheet" href="styles.css">
+  </head>
+        
+ <body>
+   <nav>
+    <ul class="topnav" id="menuClick">
+     <li><a href="#home">Home</a></li>
+     <li class="topnav-right"><a href="#contact">Contact</a></li>
+     <li class="topnav-right"><a href="#projects">Projects</a></li>
+     <li class="topnav-right"><a href="#about">About</a></li>
+        <li class="dropdownMenu"><a href="javascript:void(0);" onclick="dropMenu()">&#9776;</a></li>
+    </ul>
+   </nav>
+     
+   <div class="container">
+      <div class="col-12">
+              <img src="pictures/blurpiccity.jpg" Width="1000" height="300" >
+       </div>
+          <div class="containertext">John Spencer</div>
+          </div>
+        
+         
+<!--header sits on container for second section of web page-->
+<header>
+     <h1 class="section2Header">Software Developer</h1>
+</header> 
+    
+<div class="container">
+  <div class="row">
+    <div class="col-4">
+        <div class="box">
+            <div class="icon">
+            <a href="https://github.com/JSpencerIV">
+                <img src="https://img.icons8.com/fluency/48/000000/github.png"/></a>
+            <!--<a href="https://icons8.com/icon/AZOZNnY73haj/github">GitHub icon by Icons8</a>-->
+            </div>
+            <label>Projects</label>
+            <p> Check out some of my recent and early work as a developer.</p>
+         </div>  
+    </div>
+      <div class="col-4">
+        <div class="box">
+            <div class="icon">
+            <a href="https://www.linkedin.com/in/jspenceriv/">
+                <img src="https://img.icons8.com/color/48/000000/linkedin.png"/></a>
+            <!--<a href="https://icons8.com/icon/13930/linkedin">LinkedIn icon by Icons8</a>-->
+            </div>
+            <label>Work History</label>
+            <p>Here are  past and present work related skills.</p>
+         </div>  
+    </div>
+      <div class="col-4">
+        <div class="box">
+            <div class="icon">
+            <img src="https://img.icons8.com/ios-filled/50/000000/contact-card.png"/>
+            <!--<a href="https://icons8.com/icon/7863/contact">Contact icon by Icons8</a>-->
+            </div>
+            <label>Contact Me</label>
+            <p>Thank you for viewing my site. If you have any questions related to web design leave a message.</p>
+         </div>  
+    </div>
+  </div>
+    <div class="row">
+      <div class="col-12">
+        <div class= "containertext2">About Me</div>   
+      </div>
+    </div>
+</div>
+<hr>
+<div class="Container">
+  <div class="row">
+   <div class="col-7">
+       <article>
+           <p>Hello! My name is John Spencer and I'm a Washington state-based freelancer. When I'm not building websites and applications for clients, I'm making sound recordings and helping clients with marketing their brand remotely. I have a diverse set of skills, ranging from 
+           Design, to HTML + CSS + Javascript + Python + React. Creating great looking websites with responsive layouts and functioning databases.</p>
+           
+       </article>
+   </div> 
+    <div class="col-5">
+    <div class="phoneIcon">
+    <img src="pictures/myprofilepic3_48kb.jpg">
+    </div>
+   </div>
+ </div>
+</div>
+
+     
+<footer class="footsy">
+    <div class="row">
+    <div class="col-3 mobileStack">
+        <h2>Copyright© John Spencer 2022</h2>
+        <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        </ul>
+    </div>
+         <div class="col-3 mobileStack">
+        <h1></h1>
+        <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        </ul>
+     </div>
+         <div class="col-3 mobileStack">
+        <h1></h1>
+        <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        </ul>
+    </div>
+         <div class="col-3 mobileStack">
+        <h1></h1>
+        <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        </ul>
+    </div>
+    </div> 
+</footer>   
+     
+     
+     
+     
+     
+
+ <script> 
+    function dropMenu() {
+    var x = document.getElementById("menuClick");
+    if (x.className === "topnav"){
+        x.className += " responsive";
+        /*change topnav to topnav.responsive*/
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+     
+     
+ </body>
+        
+</html>
